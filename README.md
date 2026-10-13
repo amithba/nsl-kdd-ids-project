@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Network Intrusion / Security Attack Detection using a Neural Network (NSL-KDD)
 
 **Course:** UE24CS352A — Machine Learning, Mini-Project
@@ -155,3 +156,6 @@ git push
   imbalanced (R2L/U2R are rare) and the test set contains attack subtypes
   never seen in training, so `train.py` also reports macro F1-score and a
   full confusion matrix, not just accuracy.
+
+# nsl-kdd-ids-project
+04acc7e5257dc8ced9922d9141cff1356f0a3f3e
