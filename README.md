@@ -152,4 +152,4 @@ git push
   full confusion matrix, not just accuracy.
 
 # nsl-kdd-ids-project
-04acc7e5257dc8ced9922d9141cff1356f0a3f3e
+https://github.com/amithba/nsl-kdd-ids-project
