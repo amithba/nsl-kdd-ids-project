@@ -1,0 +1,17 @@
+{
+  "backend": "sklearn",
+  "train_accuracy": 0.98525,
+  "test_accuracy_multiclass": 0.866,
+  "test_accuracy_binary": 0.972,
+  "test_macro_f1": 0.5442403650212946,
+  "n_train_samples": 12000,
+  "n_test_samples": 3000,
+  "n_features": 55,
+  "classes": [
+    "Normal",
+    "DoS",
+    "Probe",
+    "R2L",
+    "U2R"
+  ]
+}

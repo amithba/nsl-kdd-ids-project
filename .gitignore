@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Large dataset files — download locally, don't commit (see README)
+data/KDDTrain+.txt
+data/KDDTest+.txt
+data/KDDTrain+_20Percent.txt
+data/*.csv
+
+# Keep the small synthetic sample files (useful for graders / CI) — uncomment
+# the next two lines if you'd rather exclude them too:
+# data/KDDTrain+_sample.txt
+# data/KDDTest+_sample.txt
+
+# OS
+.DS_Store
