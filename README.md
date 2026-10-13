@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+HEAD
 # Network Intrusion / Security Attack Detection using a Neural Network (NSL-KDD)
 
 **Course:** UE24CS352A — Machine Learning, Mini-Project
-**Team:** <Team No. __, Names, SRNs>
+**Team:** <Team No.4,AMITH B A - PES1UG24AM032,ASHWIN ANAND - PES1UG24AM057>
 
 A multi-class Artificial Neural Network (ANN) that classifies network
 connection records from the **NSL-KDD** dataset as `Normal`, `DoS`, `Probe`,
@@ -11,11 +11,9 @@ connection records from the **NSL-KDD** dataset as `Normal`, `DoS`, `Probe`,
 41→122 feature one-hot expansion, feed-forward NN, train/test accuracy
 comparison), adapted to run end-to-end offline with scikit-learn.
 
----
 
 ## 1. Project Structure
 
-```
 .
 ├── README.md
 ├── requirements.txt
@@ -33,7 +31,6 @@ comparison), adapted to run end-to-end offline with scikit-learn.
 ├── outputs/                      # generated: confusion matrix, loss curve, metrics.json
 └── report/
     └── Mini_Project_Report.pdf   # 2-page write-up for submission
-```
 
 ## 2. Getting the Real Dataset
 
@@ -53,15 +50,14 @@ use).
 
 ## 3. Setup
 
-```bash
+bash
 python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-```
 
 ## 4. Running the Pipeline
 
-```bash
+bash
 cd src
 
 # (a) Quick smoke test on the bundled synthetic sample data:
@@ -70,7 +66,7 @@ python train.py
 
 # (b) Real run, once you've placed the real files in ../data/:
 python train.py --train ../data/KDDTrain+.txt --test ../data/KDDTest+.txt
-```
+
 
 This prints train/test accuracy, macro F1, and a full classification report
 to the console, and writes to `../outputs/`:
@@ -84,16 +80,16 @@ numbers) in your final report/slides.
 
 ### Optional: Keras/TensorFlow backend
 If you have TensorFlow installed (e.g. in Google Colab):
-```bash
+bash
 pip install tensorflow
 python train.py --backend keras --train ../data/KDDTrain+.txt --test ../data/KDDTest+.txt
-```
+
 
 ## 5. Adding This Project to GitHub
 
 From inside the project folder:
 
-```bash
+bash
 # 1. Initialize git (skip if already a repo)
 git init
 
@@ -112,7 +108,6 @@ git branch -M main
 
 # 5. Push
 git push -u origin main
-```
 
 **Share the repo with faculty/TAs (required by the assignment guidelines):**
 1. Open the repo on GitHub → **Settings** → **Collaborators and teams**.
@@ -121,11 +116,10 @@ git push -u origin main
    with the faculty and TAs."
 
 **Keep it updated:** every time you make changes,
-```bash
+bash
 git add .
 git commit -m "describe what changed"
 git push
-```
 
 ## 6. Deliverables Checklist (per assignment guidelines)
 
