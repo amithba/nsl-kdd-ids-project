@@ -1,8 +1,8 @@
-HEAD
+
 # Network Intrusion / Security Attack Detection using a Neural Network (NSL-KDD)
 
 **Course:** UE24CS352A — Machine Learning, Mini-Project
-**Team:** <Team No.4,AMITH B A - PES1UG24AM032,ASHWIN ANAND - PES1UG24AM057>
+**Team:** Team No.4,AMITH B A - PES1UG24AM032,ASHWIN ANAND - PES1UG24AM057
 
 A multi-class Artificial Neural Network (ANN) that classifies network
 connection records from the **NSL-KDD** dataset as `Normal`, `DoS`, `Probe`,
